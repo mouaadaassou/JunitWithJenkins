@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: MainTest
--------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.033 sec <<< FAILURE!
-testOreder(MainTest)  Time elapsed: 0.002 sec  <<< ERROR!
-java.lang.IllegalArgumentException: the array is empty, try to add items to it the next time
-	at Main.selectMaxOfAnArray(Main.java:11)
-	at MainTest.testOreder(MainTest.java:17)
