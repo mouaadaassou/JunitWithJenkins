@@ -7,6 +7,12 @@ public class MainTest extends TestCase{
 	}
 
 	public void testSample() {
-		assertEquals(9, Main.selectMaxOfAnArray(new long[] {5, 7, 8, 9, 3, 2}));
+		assertEquals(9, Main.selectMaxOfAnArray(new long[] {7, 8, 9}));
+	}
+
+	public void testOreder() {
+		assertEquals(9, Main.selectMaxOfAnArray(new long[] {9, 8, 7}));
+		assertEquals(9, Main.selectMaxOfAnArray(new long[] {8, 7, 9}));
+		assertEquals(9, Main.selectMaxOfAnArray(new long[] {8, 9, 7}));
 	}
 }
